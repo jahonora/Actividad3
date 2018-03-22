@@ -1,0 +1,132 @@
+<html>
+<head>
+<style>
+.box{
+	height: 300px;
+	border: solid 1px black;
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+.espana{
+}
+.espana .redhor{
+	width: 100%;
+	height: 30%;
+	background-color: red;
+}
+.espana .yellowhor{
+	width: 100%;
+	height: 40%;
+	background-color: yellow;
+}
+.dinamarca{
+	position: relative;
+	height: 300px;
+}
+.dinamarca .izqtop{
+	background-color: red;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.dinamarca .izqbot{
+	background-color: red;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.dinamarca .dertop{
+	background-color: red;
+	width: 70%;
+	height: 130px;
+	position: absolute;
+	left: 190px;
+	top: 0;
+}
+.dinamarca .derbot{
+	background-color: red;
+	width:  70%;
+	height: 130px;
+	position: absolute;
+	left: 190px;
+	bottom: 0;
+
+}
+.eau{
+	height: 100%;
+	width: 100%;
+}
+.eau .redvert{
+	height: 100%;
+	width: 20%;
+	background-color: red;
+	float: left;
+}
+.eau .greenhor{
+	width: 100%;
+	height: 34%;
+	background-color: green;
+}
+.eau .whitehor{
+	width: 100%;
+	height: 33%;
+	background-color: white;
+}
+.eau .blackhor{
+	width: 100%;
+	height: 33%;
+	background-color: black;
+	
+}
+
+.japon{
+	background-color: white;
+	position: relative;
+}
+.japon .circle{
+	height: 130px;
+	width: 130px;
+	background-color: red;
+	border-radius: 130px;
+	position: absolute;
+	top: 90px;
+	left: 40%;
+}
+</style>
+</head>
+<body>
+<div class="box">
+	<div class="espana">
+		<div class="redhor"></div>
+		<div class="yellowhor"></div>
+		<div class="redhor"></div>
+	</div>
+</div>
+<div class="box">
+	<div class="dinamarca">
+		<div class="izqtop"></div>
+		<div class="izqbot"></div>
+		<div class="dertop"></div>
+		<div class="derbot"></div>
+	</div>
+</div>
+<div class="box">
+	<div class="eau">
+		<div class="redvert"></div>
+		<div class="greenhor"></div>
+		<div class="whitehor"></div>
+		<div class="blackhor"></div>
+	</div>
+</div>
+<div class="box">
+	<div class="japon">
+		<div class="circle"></div>
+	</div>
+</div>
+</body>
+</html>
